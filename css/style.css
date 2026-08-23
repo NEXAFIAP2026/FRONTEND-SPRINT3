@@ -1,0 +1,140 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container_introducao {
+display: flex;
+background-color: #0B0F19;
+justify-content: space-between;
+align-items: center;
+gap: 40px;
+padding: 100px 80px;
+min-height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_introducao1 {
+color: white;
+display: flex;
+
+flex-direction: column;
+
+gap: 20px;
+
+}
+
+.titulo {
+font-size: 52px;
+max-width: 600px;
+line-height: 1.1;
+}
+
+.subtitulo {
+max-width: 624px;
+color: #94a3b8;
+
+line-height: 1.6;
+}
+
+.titulo_filho {
+font-size: 13px;
+background-color: #1E293B;
+color: #14B8A6;
+border-radius: 9px;
+padding: 8px 14px;
+display: inline-block;
+width: fit-content;
+font-family: 'Geist', sans-serif;
+margin-bottom: 8px;
+
+}
+
+.container_introducao2 img {
+width: 100%;
+max-width: 600px;
+height: auto;
+border-radius: 4px;
+}
+
+.container {
+max-width: 1100px;
+margin: 0 auto;
+padding: 20vh 20px;
+}
+
+#publico-alvo {
+background-color: #ffffff;
+}
+
+.section-header {
+text-align: center;
+margin-bottom: 50px;
+}
+
+.titulo-alvo {
+font-family: 'Outfit', sans-serif;
+font-weight: 700;
+font-size: 2.5rem;
+color: #0b0f19;
+margin-bottom: 15px;
+}
+
+.section-header p {
+font-family: 'Geist', sans-serif;
+color: #4b5563;
+font-size: 1rem;
+line-height: 1.5;
+}
+
+.cards-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+}
+
+.card {
+background-color: #f8fafc;
+border: 1px solid #e2e8f0;
+border-radius: 16px;
+padding: 40px 30px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.icon-box {
+width: 50px;
+height: 50px;
+background-color: #e6f4f1;
+color: #0d9488;
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 24px;
+}
+
+.card h3 {
+font-family: 'Outfit', sans-serif;
+font-weight: 700;
+font-size: 1.25rem;
+color: #0b0f19;
+margin-bottom: 12px;
+}
+
+.card p {
+font-family: 'Geist', sans-serif;
+color: #4b5563;
+font-size: 0.95rem;
+line-height: 1.6;
+}
+
+.texto {
+font-family: 'Geist', sans-serif;
+color: #4b5563;
+}
