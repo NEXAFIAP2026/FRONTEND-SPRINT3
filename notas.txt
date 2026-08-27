@@ -1,0 +1,8 @@
+O projeto nasceu da necessidade de otimizar a pós-produção fotográfica unindo criatividade à precisão matemática. Através da IA Nexa, eliminamos a complexidade técnica dos softwares tradicionais de edição, permitindo que qualquer pessoa consiga o resultado exato que imaginou.
+                        
+
+A plataforma analisa zonas de sombra, luminosidade e distribuição de tons de forma automática. Ao receber um comando ou intenção estética, o motor do sistema cruza a linha de base da fotografia original com as variáveis ideais de matriz RGB, entregando uma imagem tratada em segundos. 
+                        
+
+Além de simplificar o fluxo de trabalho, o sistema foi desenhado para atuar como uma solução prática, transformando o que antes era um processo longo de tentativa e erro em uma ferramenta tecnológica de impacto direto e real.
+                    

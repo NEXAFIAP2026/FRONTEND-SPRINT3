@@ -1,55 +1,159 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexa — Jovi Camera</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+    <title>Nexa — Sprint 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <main class="container_introducao">
-        <div class="container_introducao1">
-            <p class="titulo_filho">ASSISTENTE INTELIGENTE EM AÇÃO</p>
-            <h1 class="titulo">Sua câmera com IA que traduz sua intenção estética.</h1>
-            <p class="subtitulo">A Nexa conecta o seu desejo criativo aos parâmetros matemáticos da fotografia, otimizando iluminação, contraste, saturação e matrizes RGB em segundos.</p>
+    <!-- CABEÇALHO E MENU -->
+    <header class="cabecalho">
+        <div class="nav-container">
+            <span class="logo">NEXA</span>
+            <nav class="menu">
+                <a href="#solucao">A Solução</a>
+                <a href="#publico-alvo">Público-Alvo</a>
+                <a href="#sobre">Sobre o Projeto</a>
+                <a href="#equipe">Nossa Equipe</a>
+            </nav>
         </div>
-        <div class="container_introducao2">
-            <img src="assets/NEXA.png" alt="NEXA">
-        </div>
-    </main>
-    <main id="publico-alvo">
-        <div class="container">
+    </header>
 
-            <div class="section-header">
-                <h3 class="titulo-alvo">Público-Alvo</h3>
-                <p class="texto">Uma solução unificada que conecta todos os pilares do ecossistema educacional e tecnológico.</p>
+    <main>
+        <!-- SEÇÃO 1: A SOLUÇÃO -->
+        <section id="solucao" class="container_introducao">
+            <div class="container_introducao1">
+                <p class="titulo_filho">ASSISTENTE INTELIGENTE EM AÇÃO</p>
+                <h1 class="titulo">Sua câmera com IA que traduz sua intenção estética.</h1>
+                <p class="subtitulo">A Nexa conecta o seu desejo criativo aos parâmetros matemáticos da fotografia,
+                    otimizando iluminação, contraste, saturação e matrizes RGB em segundos.</p>
             </div>
-            <div class="cards-grid">
-
-                <div class="card">
-                    <div class="icon-box"><span class="material-icons">school</span></div>
-                    <h3>Estudantes</h3>
-                    <p class="texto">Espaço dedicado para expor portfólios, obter feedback direto de mentores e se conectar com oportunidades de mercado.</p>
-                </div>
-
-                <div class="card">
-                    <div class="icon-box"><span class="material-icons">desktop_mac</span></div>
-                    <h3>Professores</h3>
-                    <p class="texto">Ferramenta centralizada para acompanhar a evolução dos projetos, estruturar avaliações e incentivar a aplicação prática de conceitos teóricos.</p>
-                </div>
-
-                <div class="card">
-                    <div class="icon-box"><span class="material-icons">apartment</span></div>
-                    <h3>Empresas</h3>
-                    <p class="texto">Canal direto de inovação aberta para lançar desafios de negócios, recrutar talentos mapeados e financiar soluções tecnológicas viáveis.</p>
-                </div>
-
+            <div class="container_introducao2">
+                <img src="assets/NEXA.png" alt="Interface Nexa">
             </div>
-        </div>
+        </section>
+
+        <!-- SEÇÃO 2: PÚBLICO-ALVO -->
+        <section id="publico-alvo">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="titulo-secao">Público-Alvo</h2>
+                    <p class="texto">Uma solução unificada que conecta todos os pilares do ecossistema educacional e
+                        tecnológico.</p>
+                </div>
+
+                <div class="cards-flex">
+                    <div class="card">
+                        <div class="icon-box"><span class="material-icons">school</span></div>
+                        <h3>Estudantes</h3>
+                        <p class="texto">Espaço dedicado para expor portfólios, obter feedback direto de mentores e se
+                            conectar com oportunidades de mercado.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon-box"><span class="material-icons">desktop_mac</span></div>
+                        <h3>Professores</h3>
+                        <p class="texto">Ferramenta centralizada para acompanhar a evolução dos projetos, estruturar
+                            avaliações e incentivar a aplicação prática de conceitos teóricos.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon-box"><span class="material-icons">apartment</span></div>
+                        <h3>Empresas</h3>
+                        <p class="texto">Canal direto de inovação aberta para lançar desafios de negócios, recrutar
+                            talentos mapeados e financiar soluções tecnológicas viáveis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: SOBRE O PROJETO (Montado com CSS Grid em formato de L) -->
+        <section id="sobre" class="fundo-escuro">
+            <div class="container">
+                <div class="section-header header-claro">
+                    <h2 class="titulo-secao">Sobre o Projeto</h2>
+                </div>
+
+                <div class="sobre-grid">
+                    <!-- Texto Topo Esquerdo -->
+                    <div class="grid-texto-topo">
+                        <p class="texto-sobre">
+                            O projeto nasceu da necessidade de otimizar a pós-produção fotográfica unindo criatividade à
+                            precisão matemática. Através da IA Nexa, eliminamos a complexidade técnica dos softwares
+                            tradicionais de edição, permitindo que qualquer pessoa consiga o resultado exato que
+                            imaginou.
+                        </p>
+                    </div>
+
+                    <!-- Imagem Topo Direito -->
+                    <div class="grid-imagem">
+                        <img src="assets/NEXA.png" alt="Visão geral do sistema Nexa">
+                    </div>
+
+                    <!-- Texto Base (Ocupa as duas colunas formando a base do L) -->
+                    <div class="grid-texto-base">
+                        <p class="texto-sobre">
+                            A plataforma analisa zonas de sombra, luminosidade e distribuição de tons de forma
+                            automática. Ao receber um comando ou intenção estética, o motor do sistema cruza a linha de
+                            base da fotografia original com as variáveis ideais de matriz RGB, entregando uma imagem
+                            tratada em segundos.
+                        </p>
+                        <p class="texto-sobre">
+                            Além de simplificar o fluxo de trabalho, o sistema foi desenhado para atuar como uma solução
+                            prática, transformando o que antes era um processo longo de tentativa e erro em uma
+                            ferramenta tecnológica de impacto direto e real.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 4: NOSSA EQUIPE -->
+        <section id="equipe">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="titulo-secao">Nossa Equipe</h2>
+                    <p class="texto">Os desenvolvedores responsáveis por criar a solução.</p>
+                </div>
+
+                <div class="cards-flex">
+                    <div class="card">
+                        <div class="icon-box"><span class="material-icons">person</span></div>
+                        <h3>João Leão Jackson</h3>
+                        <p class="texto">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon-box"><span class="material-icons">person</span></div>
+                        <h3>Gabriel Pereira</h3>
+                        <p class="texto">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon-box"><span class="material-icons">person</span></div>
+                        <h3>Yago Hideo</h3>
+                        <p class="texto">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon-box"><span class="material-icons">person</span></div>
+                        <h3>Felipe</h3>
+                        <p class="texto">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon-box"><span class="material-icons">person</span></div>
+                        <h3>Thomaz</h3>
+                        <p class="texto">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 Nexa | FIAP. Todos os direitos reservados.</p>
+    </footer>
 </body>
-</html>
+
 </html>
